@@ -1,7 +1,7 @@
 <template>
     <div>
         <p v-for="i in 33" :key="i" :class="{'cur': arr.includes(i)}" @click="clickHan(i)">{{i}}</p>
-        <button @click="random">随机红球</button>
+        <button @click="random">随机6个红球</button>
     </div>
 </template>
 
