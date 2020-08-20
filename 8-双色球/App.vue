@@ -9,7 +9,7 @@
     export default {
         data() {
             return {
-                arr: [3, 5, 7, 11]
+                arr: []
             };
         },
         methods: {
