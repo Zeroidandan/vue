@@ -47,7 +47,8 @@
         float: left;
         width: 30px;
         height: 30px;
-        border: 1px solid #000;
+        border: 1px solid wheat;
+        background-color: wheat;
         border-radius: 50%;
         margin-right: 10px;
         text-align: center;
@@ -55,6 +56,7 @@
         // 加上&.这个符号表示又是p，又是cur
         &.cur {
             background: red;
+            border: 1px solid red;
             color: white;
         }
     }
