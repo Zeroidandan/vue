@@ -23,7 +23,7 @@
                     if (this.arr.length < 6) {
                         this.arr.push(i);
                     } else {
-                        alert(this.arr.length);
+                        alert('红球最多选择6个');
                     }
                 }
             },
