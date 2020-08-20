@@ -1,7 +1,7 @@
 <template>
     <div>
         <p v-for="i in 33" :key="i" :class="{'cur': arr.includes(i)}" @click="clickHan(i)">{{i}}</p>
-        <button @click="random">随机选择红球</button>
+        <button @click="random">随机红球</button>
     </div>
 </template>
 
@@ -23,7 +23,7 @@
                     if (this.arr.length < 6) {
                         this.arr.push(i);
                     } else {
-                        alert('红球最多选择6个');
+                        alert('红球最多选择6个！！！');
                     }
                 }
             },
