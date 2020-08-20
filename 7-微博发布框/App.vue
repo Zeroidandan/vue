@@ -5,7 +5,7 @@
             字数：{{content.length}}/140字
         </span>
         <p>
-            <button :disabled="content.length > 140">发布</button>
+            <button :disabled="content.length > 140">确认发布</button>
             <button @click="content = ''">清空</button>
         </p>
     </div>
