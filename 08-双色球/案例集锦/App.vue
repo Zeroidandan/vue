@@ -1,5 +1,5 @@
 <template>
-    <!-- template里面，只能有一个外层div，外层div里面可以有无数个 -->
+    <!-- template里面，只能有一个外层div，外层div里面可以有无数个div -->
     <div>
         <h1>你好我是Vue，很高兴遇见你！</h1>
         <h3>{{a}}</h3>
@@ -228,11 +228,11 @@
         }
     }
     .kai{
-        float: left;
+        clear: both;
         width: 80px;
         height: 40px;
         margin-left: 360px;
-        margin-top: -150px;
+        margin-bottom: 50px;
     }
     .btn {
         width: 80px;
@@ -249,5 +249,6 @@
         clear: both;
         margin-left: 50px;
         padding-left: 10px;
+        margin-bottom: 50px;
     }
 </style>
