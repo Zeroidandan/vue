@@ -1,5 +1,5 @@
 <template>
-    <!-- template里面，只能有一个外层div，外层div里面可以有无数个div -->
+    <!-- template里面，只能有一个外层div，外层div里面可以有无数个 -->
     <div>
         <h1>你好我是Vue，很高兴遇见你！</h1>
         <h3>{{a}}</h3>
