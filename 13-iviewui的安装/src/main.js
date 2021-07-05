@@ -1,15 +1,17 @@
-// alert('webpack打包终于开始运行了');
 import Vue from 'vue';
-import App from './App.vue';
 import iviewui from 'view-design';
 
-// 使用插件，use()方法
+import App from './App.vue';
+
+// 使用插件，use表示“使用”，使用什么？使用插件
 Vue.use(iviewui);
 
-// vue起步语法
+// Vue的起步语法
 new Vue({
-    el:'#app',
-    render(h){
+    // 挂载点，我们的index.html中，有一个空的<div id="app"></div>
+    el: '#app',
+    // render表示渲染，h函数表示创建节点，后面会详细介绍
+    render(h) {
         return h(App);
     }
 });

@@ -1,8 +1,9 @@
 <template>
     <div>
-        <h1>iviewui中的插件</h1>
-        <!-- 日期选择器 -->
-        <DatePicker />
+        <div class="box">
+            <h3>iviewui的使用</h3>
+            <DatePicker />
+        </div>
     </div>
 </template>
 
@@ -12,6 +13,8 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="less" scoped>
+.box{
+    margin: 20px 0px 0px 20px;
+}
 </style>
