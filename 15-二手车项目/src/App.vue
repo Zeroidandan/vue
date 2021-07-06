@@ -98,10 +98,10 @@ export default {
   },
   // 监控，监控什么啊？？
   watch: {
+    // 监控color变化，函数名是什么，就表示监控什么
     color() {
-      // 监控color变化，函数名是什么，就表示监控什么
-      this.page = 1;
       // 当color变化了，就拉取数据，并且要变为第1页
+      this.current = 1;
       this.loadData();
     }
   },
